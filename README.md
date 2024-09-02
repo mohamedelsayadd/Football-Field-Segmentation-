@@ -20,3 +20,5 @@ To set up the environment, install the required dependencies using:
 
 ```bash
 pip install ultralytics
+Usage
+Run the provided Jupyter Notebook to train and evaluate the football field segmentation model:
