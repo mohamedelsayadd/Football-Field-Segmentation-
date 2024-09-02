@@ -1,15 +1,15 @@
 # Football Field Segmentation Project
 
-This project implements a YOLOv8-based model to segment football fields in images. It provides a fast and accurate solution for applications such as sports analytics. The repository contains a Jupyter Notebook that guides you through the setup, training, and evaluation process.
+This project focuses on segmenting football fields using YOLOv8 for object detection. The notebook contains steps to set up the environment, train the model, and visualize the results.
 
 ## Table of Contents
 
 1. [Environment Setup](#environment-setup)
-2. [Project Setup](#project-setup)
-3. [Training Results](#training-results)
-4. [Model Prediction](#model-prediction)
-5. [Additional Notes](#additional-notes)
-6. [Original File](#original-file)
+2. [Dataset](#dataset)
+3. [Project Setup](#project-setup)
+4. [Training Results](#training-results)
+5. [Model Prediction](#model-prediction)
+6. [Additional Notes](#additional-notes)
 
 ## Environment Setup
 
@@ -25,6 +25,10 @@ This project implements a YOLOv8-based model to segment football fields in image
     !pip install roboflow
     !pip install ultralytics
     ```
+
+## Dataset
+
+The dataset used in this project is available at [Roboflow Dataset](https://universe.roboflow.com/tennis-ai/football-boxes/dataset/1).
 
 ## Project Setup
 
@@ -87,6 +91,3 @@ This project implements a YOLOv8-based model to segment football fields in image
 
 - Replace `"YOUR_API_KEY"` with your actual Roboflow API key.
 - Ensure that dataset paths and image paths are correctly set according to your file structure.
-
-## Thank You
-
