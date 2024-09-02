@@ -88,6 +88,5 @@ This project implements a YOLOv8-based model to segment football fields in image
 - Replace `"YOUR_API_KEY"` with your actual Roboflow API key.
 - Ensure that dataset paths and image paths are correctly set according to your file structure.
 
-## Original File
+## Thank You
 
-The original file can be accessed at [Google Colab](https://colab.research.google.com/drive/1IWk8QYPlZsujc43jENBmLw8DpVfcFaYK).
